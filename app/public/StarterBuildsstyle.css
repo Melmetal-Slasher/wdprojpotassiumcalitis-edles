@@ -1,0 +1,222 @@
+/* Style for bodies */
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles*/
+header {
+  font-family: "Oswald", serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #87ceeb;
+  color: black;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Styling for nav links */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald", serif;
+}
+
+/* Main styling */
+.intro-page {
+  margin: 20px;
+}
+
+.title h1 {
+  text-align: center;
+  font-family: "Oswald", serif;
+}
+
+/* Section styling */
+.intro,
+.purpose {
+  margin-bottom: 20px;
+}
+
+.introduction h2,
+.build h2,
+.fun-facts h2 {
+  margin: 0 0 10px 0;
+  font-family: "Oswald", serif;
+}
+
+.intro-content p {
+  font-style: bold;
+  font-family: "Oswald", serif;
+}
+
+.pieces {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.pieceone{
+  flex: 1 1 calc(20% - 10px); /* Take up 1/5 of available space */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+
+.piecetwo{
+  flex: 1 1 calc(20% - 10px); /* Take up 1/5 of available space */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+
+
+.piecethree{
+  flex: 1 1 calc(20% - 10px); /* Take up 1/5 of available space */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+
+.piecefour{
+  flex: 1 1 calc(20% - 10px); /* Take up 1/5 of available space */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+
+.piecefive{
+  flex: 1 1 calc(20% - 10px); /* Take up 1/5 of available space */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+.pieces img {
+  width: 100px;
+  height: 100px;
+}
+
+
+.video img {
+  width: 400px;
+  height: 300px;
+}
+
+/* Styling for captions under images */
+.intro-content .caption {
+  text-align: ;
+  font-size: 0.9em;
+  color: #555555;
+  margin-top: 5px;
+  display: block;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Styling for history and fun facts */
+.history,
+.fun-facts {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Layout for section content */
+.section-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.section-content p,
+.section-content ul {
+  flex: 1;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Footer styling */
+footer {
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #87ceeb;
+  color: black;
+}
+
+/* QR Code styling */
+.sources {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sources img {
+  max-width: 12.5%;
+  height: auto;
+}
+
+/* Footer styling */
+.general {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Layout for history and funfacts*/
+.history-funfacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Styling for images */
+.section-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Captions under images */
+.section-image .caption {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+  display: block;
+  font-family: "Work Sans", sans-serif;
+}

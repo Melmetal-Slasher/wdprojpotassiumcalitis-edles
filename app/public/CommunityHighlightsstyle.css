@@ -1,0 +1,139 @@
+/* Gets rid of blank borders */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox layout for body */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Styling for footer and header */
+header,
+footer {
+  background-color: #87ceeb;
+  color: black;
+  font-family: "Oswald", serif;
+  padding: 10px 20px;
+}
+
+/* Aligning the logo and nav links */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nav styling */
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Spacing for nav */
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Styling for the anchor tags */
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #87ceeb;
+  color: black;
+}
+
+.sources {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f5f5dc;
+}
+
+/* Head styling */
+h1,
+h2 {
+  font-family: "Oswald", serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.featured-sets {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Styling for each set */
+.featured-sets .set {
+  flex: 1 1 calc(25% - 10px); /* Take up 1/4 of available space */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+}
+
+/* Image styling */
+.featured-sets img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain; /* Shrink to fit containers */
+  margin-bottom: 10px;
+}
+
+/* Info section styling */
+.info-section {
+  margin: 20px 0;
+}
+
+.info-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+/* Title for sets */
+.featured-sets .set h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Description for sets */
+.featured-sets .set p {
+  font-size: 0.9em;
+  margin: 5px 0 10px;
+}
+
+/* Styling for purchase */
+.featured-sets .set a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #87ceeb;
+  color: black;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
